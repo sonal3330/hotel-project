@@ -1,6 +1,6 @@
 <html>
 <head>
- <link rel="stylesheet" href="bookroomstyle.css">
+ <link rel="stylesheet" href="css/bookroomstyle.css">
 </head>
 <body class="choose">
   <?php include_once('hotelnavigation.php'); ?>

@@ -10,7 +10,7 @@
     <meta name="keywords" content="Rajmahal hotel, hotel in Goa, best hotel"> 
     <meta name="author" content="Sonal Sharma"> 
 	<meta charset="UTF-8">
-    <link rel="stylesheet" href="faccss.css">   
+    <link rel="stylesheet" href="css/faccss.css">   
   <body>
      <center><h1><b><font color="purple">OUR FACILITIES</font></b></h1></center>
      

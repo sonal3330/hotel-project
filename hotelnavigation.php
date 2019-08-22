@@ -7,7 +7,7 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="navstyle.css">
+    <link rel="stylesheet" href="css/navstyle.css">
 	<meta name="description" content="Rajmahal hotel"> 
     <meta name="keywords" content="Rajmahal hotel, hotel in Goa, best hotel"> 
     <meta name="author" content="Sonal Sharma"> 

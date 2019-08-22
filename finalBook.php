@@ -1,7 +1,7 @@
 <html>
 <head>
 <script type="text/javascript" src="jquery.js"></script>
-<link rel="stylesheet" href="finalbookstyle.css">
+<link rel="stylesheet" href="css/finalbookstyle.css">
 </head>
    
 <body>

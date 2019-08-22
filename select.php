@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <head> 
-<link rel="stylesheet" href="selectstyle.css">
+<link rel="stylesheet" href="css/selectstyle.css">
 </head> 
 <body>
 <?php
