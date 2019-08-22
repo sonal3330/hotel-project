@@ -3,36 +3,11 @@
          ?>
 <html>
     <head>
-         <meta charset="UTF-8">
+        <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-		
-		<style>
-		*{
-                       box-sizing:border-box;
-                   }  
-				  
-				  .bottom{
-					    border:1px solid black;
-						  height:200px;
-						  width:100%;
-						 background-color:CadetBlue;
-					  	float:left;  
-					  position:absolute;
-					 top:690px;
-					  				  }
-									  .address{
-										  margin-left:30px;
-										  margin-top:10px;
-									  }
-				  .about{
-					   position:absolute;
-					  top:10px;
-					  left:500px;
-					//float:left;  
-				  }
-				  
-		</style>
-		</head>
+		<link rel="stylesheet" href="bookconfirmsstyle.css">
+	</head>
+	
 	<body bgcolor="Cornsilk">
 	<center><font size="10" font color="purple"> Thank You For Your Reservation Request</font><br><br><br></center>
       <font size="7"> <center>Booking Successful</center></font><br>

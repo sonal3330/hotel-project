@@ -1,31 +1,6 @@
 <html>
 <head>
-  <style >
-  .choose{
-	  background-color:beige;
-  }
-    .ab,input{
-      margin:20px 0px 0px 120px;
-  width:70%;
-  height:   60px;
- text-align-last:  center; 
-  font-size:  30px;
-  }
-  .sub:hover{
-background-color:blue;
-cursor: pointer;
-  }
-  .sub{
-width:50px;
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-  background-color:LightBlue;
-  }
-  h1{
-	  color:purple;
-  }
-
-  </style>
-
+ <link rel="stylesheet" href="bookroomstyle.css">
 </head>
 <body class="choose">
   <?php include_once('hotelnavigation.php'); ?>

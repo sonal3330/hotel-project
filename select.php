@@ -1,35 +1,7 @@
 <!DOCTYPE html>
-<head> <style type="text/css">
-  *{
-	
-                       box-sizing:border-box;
-	  
-  }
-  table,tr,td,th{
-    border:1px solid black;
-  border-collapse:collapse; 
-  }
-  table{
-     width: 100%;
-  }
-  .axc{
-    border:1px solid black;
-    float: left;
-    width:100%;
-  height:0px;
-  }
-   #show_login{
-	   position:absolute;
-	   top:550px;
-	   left:450px;
-   }
-  .img{
-    width:100%;
-  }
-  
-  
-  
-</style></head> 
+<head> 
+<link rel="stylesheet" href="selectstyle.css">
+</head> 
 <body>
 <?php
 include('hotelnavigation.php');
