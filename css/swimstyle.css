@@ -68,10 +68,12 @@ img {
   to {opacity: 1}
 }
 
-.he{
+#he{
 	font-size:27px;
 	color:FireBrick;
 	font-family:ar blanca;
-	margin-left:470px;
-  
+}
+
+.cbox {
+	background-color: azure;
 }

@@ -1,9 +1,7 @@
 
                        /* Spa styling*/
 
-.sppa {
-  background-color: Azure;
-}
+
 
 * {
   box-sizing: border-box;
@@ -72,10 +70,12 @@ img {
   to {opacity: 1}
 }
 
-.he{
+#he{
 	font-size:27px;
 	color:FireBrick;
-	font-family:ar blanca;
-	margin-left:290px;
+	font-family:ar blanca;	
+  }
   
-}
+  .cbox {
+	  background-color: azure;
+  }

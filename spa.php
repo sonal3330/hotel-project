@@ -4,12 +4,14 @@
 <html>
  <head>
    <meta name="viewport" content="width=device-width, initial-scale=1">
+   <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
    <link rel="stylesheet" href="css/spastyle.css">
 </head>
 <body>
-<div class="sppa">
+<div class="container-fluid cbox">
 <br>
-<div class="he"><h1>An Inspired Spa Resort in The Raj Mahal</h1></div><br>
+<div class="text-center" id="he"><h1>An Inspired Spa Resort in The Raj Mahal</h1></div><br>
 <h2><font color="green">Look and Feel Your Best </font></h2>
 
 <p>
@@ -52,6 +54,7 @@ Mexican folk healing is known as “curanderismo”. Steeped in tradition, it st
   <span class="dot"></span> 
 </div>
 </div>
+
 <script>
 var slideIndex = 0;
 showSlides();

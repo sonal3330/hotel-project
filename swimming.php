@@ -4,11 +4,14 @@
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="css/swimstyle.css">
+<!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/swimstyle.css">
 </head>
 <body bgcolor="Cornsilk">
-
-<div class="he"><h1>Swimming Pool</h1></div><br><br>
+<div class="container-fluid cbox">
+<br>
+<div class="text-center" id="he"><h1>Swimming Pool</h1></div><br><br>
 <h2><font color="blue">Relax Poolside at the Raj Hotel</font></h2>
 
 <p><b>Be mesmerized by the beauty of the glistening infinity pools that seem to flow into the horizon of the Pacific Ocean, soothed by the saltwater pool, and delighted by the children’s pool. Swim, soak or sip a refreshment on a chaise lounge. Enjoy a spectacular vista from the vantage point of your own private plunge pool off your luxurious guestroom or suite.</b></p>
@@ -40,7 +43,7 @@
   <span class="dot"></span> 
   <span class="dot"></span> 
 </div>
-
+</div>
 <script>
 var slideIndex = 0;
 showSlides();

@@ -2,71 +2,31 @@
                             /* Styling of activity section at home page*/
 
 * {
-	  box-sizing: border-box;
+	 box-sizing: border-box;
     }
+ 
+#myDIV {
+  width: 100%; 
+}
+	
+#myDIV2,#myDIV3 {
+  display: none;
+  width: 100%;
+}	  
 
-    ul.sel {
-      list-style-type: none;
-      overflow: hidden;
-      background-color: white;
-	  text-align: center;
-	  margin: auto;
-	  width: 80%;
-	}
+ #acbutton:hover {
+  background-color: #e7e7e7;
+  color: black;
+}  
+.an {
+  font-size: 18px;
+  color: black;
+  font-weight: bold;
+ }
 	
-    ul.act {
-      list-style-type: none;
-      width: 100%;
-	  height: 25%;
-      overflow: hidden;
-      background: linear-gradient(-45deg,blue,pink,pink,blue);
-	}
+.activitycontainer {
+	border: 1px solid hidden;
+	background: linear-gradient(-45deg,blue,pink,pink,blue);
+}
 	
-    #myDIV ul.act li,#myDIV2 ul.act li,#myDIV3 ul.act li {
-	  float: left;
-	}
-
-    ul.sel li {
-	  float: left;
-	} 
-
-    ul.sel li a button {
-      display: block;
-      color: white;
-	  font-weight: bold;
-      text-align: center;
-      padding: 14px 16px;
-      width: 200px;
-    }
-    
-	ul.sel li a button:hover {
-	  color: red;
-	}    	
-
-    #myDIV{
-      width: 100%; 
-	}
 	
-    #myDIV2,#myDIV3 {
-	  display: none;
-      width: 100%;
-	}
-     
-    button{
-	  background-color: #333;
-	  color: white;
-	  border-style: none;
-	  cursor: pointer;
-    }
-	
-    .viewbutton {
-      margin-left: 20%;
-    }
-	
-    .an {
-	  font-size: 18px;
-	  color: black;
-	  font-weight: bold;
-    }
-	
-		
