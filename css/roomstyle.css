@@ -1,65 +1,66 @@
+/* Rooms and Suite page styling*/
 
-                           /* Rooms and Suite page styling*/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 
-   * {
-     box-sizing: border-box;
-	 margin: 0;
-	 padding: 0;
-   }	
- 
-  .room11 {
-	display: none;
-	overflow: scroll;
-	
-  }
-	
-  .room12 {
-	  display: none;
-	   overflow: scroll;
-    }
-	
-  .room13 {
-	   display: none;
-	   overflow: scroll;
-  }	
-	
-  .t1 {
-	 font-size: 15px;
-  }
-	 
-	.btn1 {
-	  background-color: blue;
-      border: none;
-      color: black;
-      padding: 12px 16px;
-      cursor: pointer;
-	}
-	 
-	.btn2 {
-	  background-color: green;
-      border: none;
-      color: black;
-      padding: 12px 16px;
-      cursor: pointer;
-	}
-	 
-	.btn3 {
-	  background-color: green;
-      border: none;
-      color: black;
-	  padding: 12px 16px;
-      cursor: pointer;
-	}
-	    
-    table,tr,td {
-      border: 2px solid black;
-      border-collapse: collapse;        
-    }
-				
-	.rbox {
-		border: 1px solid hidden;
-	}
-	
-	.roombody {
-		background-color: lemonchiffon;
-	}
+.room11 {
+  display: none;
+  overflow: scroll;
+
+}
+
+.room12 {
+  display: none;
+  overflow: scroll;
+}
+
+.room13 {
+  display: none;
+  overflow: scroll;
+}
+
+.t1 {
+  font-size: 15px;
+}
+
+.btn1 {
+  background-color: blue;
+  border: none;
+  color: black;
+  padding: 12px 16px;
+  cursor: pointer;
+}
+
+.btn2 {
+  background-color: green;
+  border: none;
+  color: black;
+  padding: 12px 16px;
+  cursor: pointer;
+}
+
+.btn3 {
+  background-color: green;
+  border: none;
+  color: black;
+  padding: 12px 16px;
+  cursor: pointer;
+}
+
+table,
+tr,
+td {
+  border: 2px solid black;
+  border-collapse: collapse;
+}
+
+.rbox {
+  border: 1px solid hidden;
+}
+
+.roombody {
+  background-color: lemonchiffon;
+}
