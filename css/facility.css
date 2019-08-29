@@ -1,0 +1,15 @@
+                                              
+/* Home page facilities styling*/
+
+* {
+  box-sizing: border-box;
+}
+
+.arow {
+  border: 1px solid hidden;
+}
+
+.faccontainer {
+  border: 1px solid hidden;
+  background-color: lavender;
+}

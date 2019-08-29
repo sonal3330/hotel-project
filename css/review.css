@@ -1,0 +1,44 @@
+
+/* Review on Home page styling */
+
+* {
+  box-sizing: border-box;
+}
+
+.rbox {
+  border: 1px solid hidden;
+  background-color: AliceBlue;
+}
+
+
+.showbutton {
+  background-color: #4CAF50;
+  /* Green */
+  border: none;
+  color: black;
+  font-weight: bold;
+  padding: 12px 22px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  font-size: 19px;
+  margin-left: 20%;
+  width: 250px;
+  border-radius: 8px;
+}
+
+.showbutton:hover {
+  background-color: mediumspringgreen;
+
+}
+
+.review-heading {
+  font-style: Freestyle Script;
+  padding-left: 80px;
+  color: purple;
+}
+
+.abc {
+  display: none;
+}
