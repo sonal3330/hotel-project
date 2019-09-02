@@ -1,12 +1,10 @@
 
-                       /* Spa styling*/
-
-
+/* Spa styling*/
 
 * {
   box-sizing: border-box;
 }
- 
+
 body {
   font-family: Verdana, sans-serif;
 }
@@ -61,21 +59,31 @@ img {
 }
 
 @-webkit-keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
+  from {
+    opacity: .4
+  }
+
+  to {
+    opacity: 1
+  }
 }
 
 @keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
+  from {
+    opacity: .4
+  }
+
+  to {
+    opacity: 1
+  }
 }
 
-#he{
-	font-size:27px;
-	color:FireBrick;
-	font-family:ar blanca;	
-  }
-  
-  .cbox {
-	  background-color: azure;
-  }
+#he {
+  font-size: 27px;
+  color: FireBrick;
+  font-family: ar blanca;
+}
+
+.cbox {
+  background-color: azure;
+}

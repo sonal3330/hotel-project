@@ -1,11 +1,13 @@
 
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <title></title>
-    </head>
-    <body>
-        <?php
+
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+</head>
+
+<body>
+  <?php
         
  
 $servername = "localhost";
@@ -33,7 +35,7 @@ $name=$_POST['name'];
 
 $sql="insert into reservation (name,contact,check_in,check_out,type)values('$name','$contact','$checkin','$checkout','$type')";   
 if ($conn->query($sql) === TRUE) {
-    header("Location:bookconfirm.php");
+    header("Location:book-confirm.php");
 } else {
     echo "Error: " . $sql . "<br>" . $conn->error;
 }
@@ -41,7 +43,6 @@ if ($conn->query($sql) === TRUE) {
 $conn->close();
 }
 ?>
-    </body>
+</body>
+
 </html>
-
-
