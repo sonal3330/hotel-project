@@ -1,21 +1,122 @@
                                
-/* Navigation Bar styling*/
+* {
+  margin: 0;
+  padding: 0;
+}
 
+.navigation-body {
+  background-color:#fdf2e9; 
+  font-size: 16px;
+  font-family: sans-serif, arial;
+}
 
-#nalink {
-  font-size: 20px;
-  font-weight: bold;
-  font-family: Arial;
+.navigation-header {
+  width: 1000px;
+  height: 170px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.logo {
+  position: absolute;
+  top: 5px;
+  height: 50px;
+}
+
+.nav {
+  width: 1000px;
+  height: 60px;
+  margin: 0 auto;
+  border-radius: 5px;
+}
+
+ul li {
+  list-style: none;
+  width: 200px;
+  line-height: 60px;
+  position: relative;
+  background: #222;
+  box-shadow: 0px 2px 5px 0px grey;
+  text-align: center;
+  float: left;
+  background: linear-gradient(#C70039 20%, black 80%);
+}
+
+ul li ul {
+  position: absolute;
+  display: none;
+}
+
+ul li:hover ul {
+  display: block;
+  z-index: 1;
+}
+
+.nav>ul>li:nth-of-type(1) {
+  border-radius: 5px 0px 0px 5px;
+}
+
+.nav>ul>li:nth-of-type(4) {
+  border-radius: 0px 5px 5px 0px;
+}
+
+ul li a {
   color: white;
+  width: 200px;
+  height: 58px;
+  display: block;
+  text-decoration: none;
 }
 
-#dalink {
-  font-size: 20px;
+ul li a:hover {
   font-weight: bold;
-  font-family: Arial;
-  color: black;
+  text-decoration: underline;
+  color: darksalmon;
 }
 
-#nalink:hover {
-  color: bisque;
+.fa {
+  margin-right: 5px;
+}
+
+.fa-list.modify {
+  display: none;
+  font-size: 35px;
+  position: absolute;
+  right:692px;
+  top: 50px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  header {
+    width: 100%;
+  }
+
+  .nav {
+    width: 100%;
+    height: auto;
+    display: none;
+  }
+
+  ul li {
+    width: 100%;
+    float: none;
+  }
+
+  ul li a {
+    width: 100%;
+  }
+
+  ul li ul {
+    position: static;
+  }
+
+  ul li ul li a {
+    background-color: #fdf2e9;
+  }
+
+  .fa-list.modify {
+    display: block;
+  }
+
 }

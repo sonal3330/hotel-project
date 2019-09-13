@@ -5,8 +5,8 @@
     <h1><u>Guest speak</u></h1>
   </div>
   <br>
-  <ul class="list-unstyled">
-    <li class="media">
+  <div>
+    <div class="media">
       <img src="images/review1.jpg" width="74" height="74" alt="review" class="img-fluid img-thumbnail mr-3 align-self-center">
       <div class="media-body">
         <blockquote class="blockquote">
@@ -16,8 +16,8 @@
           <div class="blockquote-footer">His Excellency Ban ki-Moon<br>Secretary General of United Nations</div>
         </blockquote>
       </div>
-    </li>
-    <li class="media">
+    </div>
+    <div class="media">
       <img src="images/review2.jpg" width="74" height="74" alt="review" class="img-fluid img-thumbnail mr-3 align-self-center">
       <div class="media-body">
         <blockquote class="blockquote">
@@ -27,10 +27,10 @@
           <div class="blockquote-footer">Mr Thein Sein<br> President – Myanmar</footer>
         </blockquote>
       </div>
-    </li>
+    </div>
     <div class="abc">
 
-      <li class="media">
+      <div class="media">
         <img src="images/review3.jpg" width="74" height="74" alt="review" class="img-fluid img-thumbnail mr-3 align-self-center">
         <div class="media-body">
           <blockquote class="blockquote">
@@ -41,8 +41,8 @@
             </div>
           </blockquote>
         </div>
-      </li>
-      <li class="media">
+      </div>
+      <div class="media">
         <img src="images/review4.jpg" width="74" height="74" alt="review" class="img-fluid img-thumbnail mr-3 align-self-center">
         <div class="media-body">
           <blockquote class="blockquote">
@@ -53,7 +53,7 @@
             </div>
           </blockquote>
         </div>
-      </li>
+      </div>
     </div>
     <div class="row">
       <div class="col-sm-4">
